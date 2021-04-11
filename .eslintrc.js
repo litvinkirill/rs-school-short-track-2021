@@ -16,6 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
+    'linebreak-style': ['error', 'windows'],
     'class-methods-use-this': 'off',
     'no-plusplus': 'off',
     'func-names': 'off',
